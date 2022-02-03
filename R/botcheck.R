@@ -19,7 +19,6 @@
 #' botcheck("barackobama")
 
 
-if (!('botcheck' %in% installed.packages()[,'Package'])){install_github("marsha5813/botcheck")}; require(botcheck);     # get prob of bot account
 if (!('httr' %in% installed.packages()[,'Package'])){install.packages("httr")}; require(httr);                          # for botcheck
 if (!('xml2' %in% installed.packages()[,'Package'])){install.packages("xml2")}; require(xml2);                          # for botcheck
 if (!('RJSONIO' %in% installed.packages()[,'Package'])){install.packages("RJSONIO")}; require(RJSONIO);                 # for botcheck
